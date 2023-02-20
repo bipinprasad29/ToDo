@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To_Do_List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+      <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <style>
+    
+    </style>
+    <div class="heading"><h1>Create Your Own To-Do-List here</h1>
+      <span class="dayAndDate"></span></div></div>
+
+    <div class="container">
+      <div class="inside-cont">
+        <textarea
+          id="to-do"
+          class="hide input"
+          placeholder="What do u want to do....... "></textarea>
+        <div class="btn-cont">
+          <div id="add" class="addbtn" onclick="showToDoEditor()">
+            <i class="fa-solid fa-circle-plus icon"></i>
+          </div>
+          <div id="save" class="hide">
+            <i class="fa-solid fa-floppy-disk icon"></i>
+          </div>
+          <div id="discard" class="hide">
+            <i class="fa-solid fa-trash icon"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="todolist.js" defer></script>
+  </body>
+</html>
